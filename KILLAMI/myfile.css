@@ -1,0 +1,163 @@
+h2{
+    color: darkcyan;
+    font-size: 33px;
+    text-align: center;
+    text-decoration: underline;
+}
+.one{
+    text-decoration: none;
+    color: black;
+}
+p{
+    color: chocolate;
+    text-align: center;
+    font-size: 33px;
+    margin: 20px;
+}
+.navbar{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    background-color:darksalmon;
+}
+.navbar.logo a{
+    font-size: 45px;
+    font-weight: 600;
+    color:olivedrab;
+    text-decoration:none;
+}
+.navbar .menu{
+    display: flex;
+    position: relative;
+}
+
+    .navbar .menu li{
+        list-style: none;
+        margin:0 8px;
+        text-decoration: none;
+    }
+
+.navbar .menu a{
+    font-size: 18px;
+    font-weight: 500;
+    color: blueviolet;
+    padding: 6px 0;
+    text-decoration: none;
+
+}
+
+.navbar .menu a:hover{
+    color: green;
+    text-decoration: underline;
+}
+.home{
+    width: 100%;
+    height: 100vh;
+    background-image: url("eddy.jpg");
+    background-size:cover;
+    background-position:center;
+    background-attachment: fixed;
+    font-family: sans-serif;
+}
+.home .home-content{
+    width: 90%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.home .text-one{
+    font-size: 25px;
+    color: darkolivegreen;
+}
+.home .text-two{
+    font-size: 65px;
+    color: saddlebrown;
+    font-weight: 600;
+    margin-left: -3px;
+}
+.home .text-three{
+    font-size:40px ;
+    margin: 5px 0;
+    color: red;
+}
+.home .text-four{
+    font-size: 23px;
+    margin: 5px 0;
+    color: whitesmoke;
+}
+.home .button{
+    margin:14px 0;
+}
+.home .button button{
+    padding: 8px 16px;
+    outline: none;
+    border-radius: 6px;
+    font-size: 25px;
+    font-weight: 400;
+    background-color: grey;
+    color: white;
+    cursor: pointer;
+    border: 2px solid black;
+}
+.home .button button:hover{
+    border-color: blue;
+    background-color: whitesmoke;
+    color:purple;
+}
+.about{
+    width: 100%;
+    height: 100vh;
+    background-image: url("artt.jpg");
+    background-size:cover;
+    background-position:center;
+    background-attachment: fixed;
+    font-family: sans-serif;
+}
+.about .about-content {
+    width: 90%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.about .text-one{
+    font-size: 65px;
+    color: saddlebrown;
+    justify-content: center;
+    text-align: center;
+    font-family: Algerian;
+}
+.about .text-two{
+    font-size: 25px;
+    color: whitesmoke;
+    font-weight: 300;
+    margin-left: -3px;
+    justify-content: center;
+    text-align: center;
+}
+.about .text-three{
+    font-size:25px ;
+    margin: 5px 0;
+    color: whitesmoke;
+    justify-content: center;
+    text-align: center;
+}
+.about .text-four{
+    font-size: 25px;
+    margin: 5px 0;
+    color: whitesmoke;
+    justify-content: center;
+    text-align: center;
+}
+
+
+
+
+
+
+
